@@ -18,6 +18,8 @@
     --SectionPadding: 6rem 0;
     --itemborderradius: 0.7rem;
 
+    --getlet: 0 7rem
+
 }
 
 * {
@@ -290,8 +292,9 @@ nav ul li a {
 
 .portofolio-tags {
     display: flex;
-    gap: 1rem;
+    gap: .5rem;
     margin: 1rem 0;
+    
 }
 
 .portofolio-tags div {
@@ -469,6 +472,12 @@ footer {
 
 .footer-icon a:hover {
     fill: #000;
+}
+
+.contact-let {
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 2rem;
 }
 
 
